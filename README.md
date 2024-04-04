@@ -1,3 +1,5 @@
+# Présentation
+
 Une todo list basique, qui permet, comme son nom l'indique, de créer une liste de choses à faire, en les catégorisant (personnelle ou professionnelle).
 
 Comment l'utiliser ? 
