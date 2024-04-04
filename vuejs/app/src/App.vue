@@ -36,11 +36,10 @@
         },
         { deep: true },
     );
-
     watch(name, newVal => {
         newVal.length == 0 ? localStorage.removeItem('name') : localStorage.setItem('name', newVal);
     });
-
+    
     onMounted(() => {
         name.value = localStorage.getItem('name') || '';
         todos.value = JSON.parse(localStorage.getItem('todos') || '[]');
