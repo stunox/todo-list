@@ -31,7 +31,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ## Project Setup
 
 ```sh
-cd .\vue-js\app
+cd .\vuejs\app
 npm install
 ```
 
